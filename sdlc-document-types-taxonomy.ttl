@@ -1,0 +1,239 @@
+@prefix pav: <http://purl.org/pav/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdlc: <https://dalstonsemantics.com/taxonomy/sdlc/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+sdlc:approved_component_list a skos:Concept ;
+    skos:broader sdlc:design ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Approved Components List" .
+
+sdlc:architectural_decision a skos:Concept ;
+    skos:broader sdlc:design ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Architectural Decision" .
+
+sdlc:architecturally_significant_requirements a skos:Concept ;
+    skos:broader sdlc:requirements ;
+    skos:editorialNote "Adopted from Architecture Tradeoff Analysis Method by the Software Engineering Institute at the Carnegie Mellon University." ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Architecturally Significant Requirements" .
+
+sdlc:branching_strategy a skos:Concept ;
+    skos:broader sdlc:development ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Branching Strategy" .
+
+sdlc:change_management_process a skos:Concept ;
+    skos:broader sdlc:deployment ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Change Management Process" .
+
+sdlc:concept_map a skos:Concept ;
+    skos:broader sdlc:requirements ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Concept Map" .
+
+sdlc:condition_constraints a skos:Concept ;
+    skos:broader sdlc:requirements ;
+    skos:editorialNote "Adopted from Competitive Engineering by Tom Gilb." ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Condition Constraints" .
+
+sdlc:data_model a skos:Concept ;
+    skos:broader sdlc:design ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Data Model" .
+
+sdlc:design_constraints a skos:Concept ;
+    skos:broader sdlc:requirements ;
+    skos:editorialNote "Adopted from Competitive Engineering by Tom Gilb." ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Design Constraints" .
+
+sdlc:design_ideas a skos:Concept ;
+    skos:broader sdlc:design ;
+    skos:editorialNote "Adopted from Competitive Engineering by Tom Gilb." ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Design Ideas" .
+
+sdlc:development_environment_setup_guide a skos:Concept ;
+    skos:broader sdlc:development ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Development Environment Setup Guide" .
+
+sdlc:disaster_recovery_and_business_continuity_plan a skos:Concept ;
+    skos:broader sdlc:operation ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Disaster Recovery and Business Continuity Plan" .
+
+sdlc:end_of_life_policy a skos:Concept ;
+    skos:broader sdlc:retirement ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "End of Life Policy" .
+
+sdlc:function_requirements a skos:Concept ;
+    skos:broader sdlc:requirements ;
+    skos:editorialNote "Adopted from Competitive Engineering by Tom Gilb." ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Function Requirements" .
+
+sdlc:functional_requirements a skos:Concept ;
+    skos:broader sdlc:requirements ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Functional Requirements" .
+
+sdlc:interface_contract a skos:Concept ;
+    skos:broader sdlc:design ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Interface Contract" .
+
+sdlc:naming_conventions a skos:Concept ;
+    skos:broader sdlc:development ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Naming Conventions" .
+
+sdlc:new_starter_guide a skos:Concept ;
+    skos:broader sdlc:development ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "New Starter Guide" .
+
+sdlc:non_functional_requirements a skos:Concept ;
+    skos:broader sdlc:requirements ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Non-Functional Requirements" .
+
+sdlc:performance_requirements a skos:Concept ;
+    skos:broader sdlc:requirements ;
+    skos:editorialNote "Adopted from Competitive Engineering by Tom Gilb." ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Performance Requirements" .
+
+sdlc:performance_testing_process a skos:Concept ;
+    skos:broader sdlc:testing ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Performance Testing Process" .
+
+sdlc:post_incident_review a skos:Concept ;
+    skos:broader sdlc:operation ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Post Incident Review" .
+
+sdlc:readme a skos:Concept ;
+    skos:broader sdlc:development ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Readme" .
+
+sdlc:resource_requirements a skos:Concept ;
+    skos:broader sdlc:requirements ;
+    skos:editorialNote "Adopted from Competitive Engineering by Tom Gilb." ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Resource Requirements" .
+
+sdlc:runbook a skos:Concept ;
+    skos:broader sdlc:operation ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Runbook" .
+
+sdlc:security_incident_response_process a skos:Concept ;
+    skos:broader sdlc:operation ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Security Incident Response Process" .
+
+sdlc:security_policy_exceptions a skos:Concept ;
+    skos:broader sdlc:deployment ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Security Policy Exceptions" .
+
+sdlc:security_testing_process a skos:Concept ;
+    skos:broader sdlc:testing ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Security Testing Process" .
+
+sdlc:security_vulnerability_management_process a skos:Concept ;
+    skos:broader sdlc:operation ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Security Vulnerability Management Process" .
+
+sdlc:service_level_agreement a skos:Concept ;
+    skos:broader sdlc:requirements ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Service Level Agreement" .
+
+sdlc:software_design_document a skos:Concept ;
+    skos:broader sdlc:design ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Software Design Document" .
+
+sdlc:solution_design_document a skos:Concept ;
+    skos:broader sdlc:design ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Solution Design Document" .
+
+sdlc:stakeholder_map a skos:Concept ;
+    skos:broader sdlc:requirements ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Stakeholder Map" .
+
+sdlc:testing_strategy a skos:Concept ;
+    skos:broader sdlc:testing ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Testing Strategy" .
+
+sdlc:threat_model_and_risk_assessment a skos:Concept ;
+    skos:broader sdlc:requirements ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Threat Model and Risk Assessment" .
+
+sdlc:vision a skos:Concept ;
+    skos:broader sdlc:requirements ;
+    skos:editorialNote "Adopted from Competitive Engineering by Tom Gilb." ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Vision" .
+
+sdlc:retirement a skos:Concept ;
+    skos:broader sdlc:sdlc ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Retirement" .
+
+sdlc:deployment a skos:Concept ;
+    skos:broader sdlc:sdlc ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Deployment" .
+
+sdlc:testing a skos:Concept ;
+    skos:broader sdlc:sdlc ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Testing" .
+
+sdlc:development a skos:Concept ;
+    skos:broader sdlc:sdlc ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Development" .
+
+sdlc:operation a skos:Concept ;
+    skos:broader sdlc:sdlc ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Operation" .
+
+sdlc:design a skos:Concept ;
+    skos:broader sdlc:sdlc ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Design" .
+
+sdlc:sdlc a skos:Concept ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Software Development Lifecycle Document" ;
+    skos:topConceptOf sdlc:scheme .
+
+sdlc:requirements a skos:Concept ;
+    skos:broader sdlc:sdlc ;
+    skos:inScheme sdlc:scheme ;
+    skos:prefLabel "Requirements" .
+
+sdlc:scheme a skos:ConceptScheme ;
+    rdfs:label "Software Development Lifecycle Document Types" ;
+    pav:version "1.0.0" ;
+    rdfs:comment "Documents typically created throughout software development lifecycle." ;
+    skos:prefLabel "Software Development Lifecycle Document Types" .
+
